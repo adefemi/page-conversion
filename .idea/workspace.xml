@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62d7e864-d78c-4ff6-b461-4944d5d9f2c6" name="Default Changelist" comment="" />
+    <list default="true" id="62d7e864-d78c-4ff6-b461-4944d5d9f2c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/test_music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/play_song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/artist-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/artist-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/content-upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/content-upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/landing-genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/landing-genre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/landing-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/landing-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/leader-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/leader-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/music-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/music-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/single-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/single-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/4051130b94efbab03d84ca4071d07bca235751f8/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/4051130b94efbab03d84ca4071d07bca235751f8/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1S4dMWoSMqAuFAoWR5stUVnJAGO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
@@ -32,29 +55,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="confirm-modal.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tofunmi's_html_design/pages/confirm-modal.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.music-page.html">
+    <configuration name="artist-page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/tofunmi's_html_design/pages/artist-page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hype-modal.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tofunmi's_html_design/pages/hype-modal.html" useBuiltInWebServerPort="true">
+    <configuration name="landing-genre.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/tofunmi's_html_design/pages/landing-genre.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tofunmi's_html_design/index.html" useBuiltInWebServerPort="true">
+    <configuration name="landing-page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/tofunmi's_html_design/pages/landing-page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tofunmi's_html_design/pages/profile.html" useBuiltInWebServerPort="true">
+    <configuration name="leader-page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/tofunmi's_html_design/pages/leader-page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="vote-modal.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tofunmi's_html_design/pages/vote-modal.html" useBuiltInWebServerPort="true">
+    <configuration name="music-page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/tofunmi's_html_design/pages/music-page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.profile.html" />
-        <item itemvalue="JavaScript Debug.confirm-modal.html" />
-        <item itemvalue="JavaScript Debug.hype-modal.html" />
-        <item itemvalue="JavaScript Debug.vote-modal.html" />
+        <item itemvalue="JavaScript Debug.music-page.html" />
+        <item itemvalue="JavaScript Debug.leader-page.html" />
+        <item itemvalue="JavaScript Debug.landing-page.html" />
+        <item itemvalue="JavaScript Debug.landing-genre.html" />
+        <item itemvalue="JavaScript Debug.artist-page.html" />
       </list>
     </recent_temporary>
   </component>
@@ -73,11 +96,27 @@
       <workItem from="1570864640728" duration="5251000" />
       <workItem from="1570882467538" duration="13205000" />
       <workItem from="1570941101647" duration="19911000" />
-      <workItem from="1570975624912" duration="11664000" />
+      <workItem from="1570975624912" duration="12810000" />
+      <workItem from="1571048528066" duration="58000" />
+      <workItem from="1571129448782" duration="1655000" />
+      <workItem from="1571131116722" duration="11796000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

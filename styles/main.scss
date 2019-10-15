@@ -184,6 +184,15 @@ body {
     padding: 10px;
     border-radius: 50%;
     box-sizing: border-box;
+    transition: .3s ease;
+  }
+
+  &:hover{
+    cursor: pointer;
+    i{
+      transform: translate(-50%, -50%) scale(1.2);
+
+    }
   }
 
   @media screen and (max-width: 480px){
@@ -436,6 +445,7 @@ body {
 
   @media screen and (max-width: 480px) {
     height: unset;
+    min-height: 400px;
     .btn-main{
       width: 100%;
       text-align: center;
@@ -445,7 +455,19 @@ body {
       justify-content: center;
       height: 60px;
     }
+
+    .upload-btn{
+      width: unset;
+      padding: 10px 60px;
+    }
   }
+}
+
+@media screen and (max-width: 480px) {
+.upload-container{
+  display: block !important;
+  margin-top: 20px;
+}
 }
 
 .close-1{
@@ -972,6 +994,16 @@ input{
     padding-left: 1vw;
     padding-right: 1vw;
     box-sizing: border-box;
+
+    &.profile-top{
+      height: unset;
+      min-height: 500px;
+
+      .alternate-circle{
+        left: 140%;
+        top: 120px;
+      }
+    }
   }
 }
 
@@ -1407,7 +1439,7 @@ input{
       margin-top: 0;
       max-width: 500px;
       line-height: 40px;
-      font-size: 16px;
+      font-size: 18px !important;
     }
 
     .bars-data{
@@ -1420,8 +1452,6 @@ input{
       margin-top: 100px;
       margin-left: 0;
 
-
-
       h1{
         font-size: 30px;
         font-weight: 500;
@@ -1431,6 +1461,13 @@ input{
         line-height: 30px;
         font-size: 14px;
       }
+
+      .bars-data{
+        transform: scale(2);
+        margin-top: 30px;
+        margin-bottom: -20px;
+      }
+
       &.mobile-margin{
         margin-left: 10px;
         h1, h3{
@@ -1569,28 +1606,27 @@ input{
     border-radius: 2px;
     position: relative;
 
-    &:before{
-      content: "";
-      position: absolute;
-      left: 45%;
-      height: 10px;
-      width: 10px;
-      background-color: $primary_color;
-      top: 0;
-      transform: translate(-50%, -45%);
-      border-radius: 50%;
-      z-index: 2;
-    }
-
-    &:after{
-      content: "";
+    .line-meter{
       position: absolute;
       left: 0;
       height: 2px;
       background-color: darken($white, 20%);
-      width: 45%;
+      width: 0%;
       top: 0;
       transform: translateY(-25%);
+    }
+
+    .line-meter:after{
+      content: "";
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background-color: $primary_color;
+      top: 0;
+      right: -10px;
+      transform: translate(-50%, -45%);
+      border-radius: 50%;
+      z-index: 2;
     }
 
     .timer{
@@ -1655,6 +1691,71 @@ input{
     }
 
   }
+
+  @media screen and (max-width: 480px) {
+    height: 80px;
+    padding-bottom: 30px;
+
+    .player-line {
+      width: 92%;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .player-controller{
+      position: relative;
+
+      .flex-item{
+        &:first-child{
+          margin-right: 50px;
+        }
+        i{
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+    .play-gradient{
+      position: absolute;
+      left: 27%;
+      transform: scale(0.5) translateX(-50%);
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+.active-playing{
+    .play-gradient{
+      animation: playerAnimation infinite 2s ease;
+      @media screen and (max-width: 480px) {
+        animation: playerAnimationMobile infinite 2s ease;
+      }
+    }
+}
+
+@keyframes playerAnimation {
+  0%{
+    transform: translateX(-50%) scale(1.05);
+  }
+  50%{
+  transform: translateX(-50%) scale(1.1);
+  }
+  100%{
+  transform: translateX(-50%) scale(0.9);
+  }
+}
+
+@keyframes playerAnimationMobile {
+  0%{
+    transform: translateX(-25%) scale(0.53);
+  }
+  50%{
+    transform: translateX(-25%) scale(0.55);
+  }
+  100%{
+    transform: translateX(-25%) scale(0.45) ;
+  }
 }
 
 .btn-selection{
@@ -1678,10 +1779,10 @@ input{
   }
 
   @media screen and (max-width: 480px) {
-    width: 150px;
+    width: 120px;
     height: 30px;
     border-radius: 30px;
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 20px;
     margin-right: 10px;
   }
