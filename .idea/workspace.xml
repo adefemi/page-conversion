@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d7e864-d78c-4ff6-b461-4944d5d9f2c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/test_music.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/play_song.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/artist-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/artist-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/content-upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/content-upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/landing-genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/landing-genre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/landing-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/landing-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/leader-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/leader-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/music-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/music-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/single-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/single-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/4051130b94efbab03d84ca4071d07bca235751f8/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/4051130b94efbab03d84ca4071d07bca235751f8/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +84,7 @@
       <workItem from="1570975624912" duration="12810000" />
       <workItem from="1571048528066" duration="58000" />
       <workItem from="1571129448782" duration="1655000" />
-      <workItem from="1571131116722" duration="11796000" />
+      <workItem from="1571131116722" duration="12132000" />
     </task>
     <servers />
   </component>
