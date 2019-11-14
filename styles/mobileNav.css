@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900|Ubuntu:300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Kumar+One+Outline|Londrina+Outline&display=swap");
 .nav-mobile-container {
-  position: relative;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .nav-mobile-container .menu-item-con {
@@ -79,24 +82,6 @@
   left: 0;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-}
-
-.nav-mobile-container .close-con .bar-close {
-  -webkit-transform: rotate(45deg) !important;
-          transform: rotate(45deg) !important;
-}
-
-.nav-mobile-container .close-con .bar-close::after {
-  display: none;
-}
-
-.nav-mobile-container .close-con .bar-close::before {
-  width: 100%;
-  height: 100%;
-  -webkit-transform: rotate(-90deg) !important;
-          transform: rotate(-90deg) !important;
-  top: 0;
-  left: 0;
 }
 
 .nav-mobile-container ul {

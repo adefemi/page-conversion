@@ -156,6 +156,7 @@ body {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   margin-left: 20px;
+  list-style: none;
 }
 
 .play-gradient {
@@ -213,8 +214,8 @@ body {
   border-radius: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .play-gradient:hover {
@@ -381,8 +382,8 @@ body {
           backdrop-filter: blur(20px);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .media-item1 .content {
@@ -455,8 +456,8 @@ body {
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07);
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07);
   cursor: pointer;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   visibility: hidden;
   opacity: 0;
   -webkit-box-sizing: border-box;
@@ -489,8 +490,8 @@ body {
   bottom: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#9c0296), to(#eb0580));
   background: linear-gradient(180deg, #9c0296, #eb0580);
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   z-index: -1;
   opacity: 0;
 }
@@ -727,7 +728,9 @@ body {
           box-sizing: border-box;
 }
 
-select, input, textarea {
+select,
+input,
+textarea {
   border: 0.5px solid gray;
   padding: 20px;
   -webkit-box-sizing: border-box;
@@ -746,7 +749,9 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-  select, input, textarea {
+  select,
+  input,
+  textarea {
     padding: 8px 10px !important;
     font-size: 12px;
     width: 100%;
@@ -1278,8 +1283,8 @@ input {
   color: #cccccc;
   font-size: 11px;
   padding: 20px;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   border-radius: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1358,7 +1363,8 @@ input {
 }
 
 @media screen and (max-width: 480px) {
-  .media-list-content .content p, .media-list-content .content h4 {
+  .media-list-content .content p,
+  .media-list-content .content h4 {
     font-size: 12px !important;
     margin: 0 !important;
   }
@@ -1457,7 +1463,8 @@ input {
   overflow: hidden;
 }
 
-.form-container input, .form-container select {
+.form-container input,
+.form-container select {
   width: 100%;
   border-width: 0.5px;
   min-width: 100px;
@@ -1506,7 +1513,8 @@ input {
   }
 }
 
-.voter-modal .content h4, .voter-modal .content p {
+.voter-modal .content h4,
+.voter-modal .content p {
   margin: 5px 0;
 }
 
@@ -1689,14 +1697,16 @@ input {
   .artist-display .details.mobile-margin {
     margin-left: 10px;
   }
-  .artist-display .details.mobile-margin h1, .artist-display .details.mobile-margin h3 {
+  .artist-display .details.mobile-margin h1,
+  .artist-display .details.mobile-margin h3 {
     margin: 0;
   }
   .artist-display .details.mobile-margin h1 {
     margin: 7px 0;
     font-size: 25px;
   }
-  .artist-display .details .btn-main, .artist-display .details i {
+  .artist-display .details .btn-main,
+  .artist-display .details i {
     font-size: 14px !important;
   }
 }
@@ -2225,5 +2235,37 @@ input {
   .profile-heading .heading {
     margin-left: 0 !important;
   }
+}
+
+.mobile.bars {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  list-style: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.mobile.bars::after, .mobile.bars::before {
+  left: 0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.bar-close {
+  -webkit-transform: rotate(45deg) !important;
+          transform: rotate(45deg) !important;
+}
+
+.bar-close::after {
+  display: none;
+}
+
+.bar-close::before {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-90deg) !important;
+          transform: rotate(-90deg) !important;
+  top: 0;
+  left: 0;
 }
 /*# sourceMappingURL=main.css.map */
